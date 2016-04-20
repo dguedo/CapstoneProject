@@ -68,3 +68,11 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Large files
+*.csv
+*.zip
+.Rhistory
+.RData
+data/
+MilestoneReport_cache/
