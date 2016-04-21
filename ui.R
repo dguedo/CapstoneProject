@@ -8,8 +8,8 @@ shinyUI(
   fluidPage(    
     
     # Give the page a title
-    titlePanel("Data Science Capstone Project by Johns Hopkins University"),
-    h4("Given a phrase (multiple words) this application will attempt to predict the next word"),
+    titlePanel("Data Science Capstone Project offered by Johns Hopkins University"),
+    h5("Given a phrase (multiple words) this application will attempt to predict the next word"),
     br(),
     
     # Generate a row with a sidebar
