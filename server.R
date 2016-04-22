@@ -10,10 +10,15 @@ shinyServer(function(input, output) {
 
   output$text <- renderText({
   
-    # prepare the pharse by parsing the input
-    #user_input <- PrepareInput(input$text)
-    PredictionModel(input$text)
+    text <- PredictionModel(input$text)
+    text[1]
 
+  })
+  
+  output$text2 <- renderText({
+    
+    text2 <- PredictionModel(input$text)
+    paste(text2[2], text2[3], sep = ", ")
   })
   
 })

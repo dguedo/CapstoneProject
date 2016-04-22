@@ -28,7 +28,9 @@ shinyUI(
       # Create a spot for the histogram 
       mainPanel(
         h5("Prediction:"),
-        verbatimTextOutput("text")
+        verbatimTextOutput("text"),
+        h5("Other suggestions:"),
+        verbatimTextOutput("text2")
       )
       
     )

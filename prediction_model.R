@@ -54,6 +54,7 @@ PredictionModel <- function(phrase) {
   total <- total[!duplicated(total$nextWord),]
   total[1:3,c("nextWord")]
 
-  unlist(total[1:3,c("nextWord")])
+  #unlist(total[1:3,c("nextWord")])
+  #total[1:3,c("nextWord")]
   
 }
