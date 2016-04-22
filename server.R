@@ -2,17 +2,14 @@
 library(shiny)
 
 # load code
-source("prepare_input.R")
 source("prediction_model.R")
 
 # Define a server for the Shiny app
 shinyServer(function(input, output) {
 
   output$text <- renderText({
-  
     text <- PredictionModel(input$text)
     text[1]
-
   })
   
   output$text2 <- renderText({

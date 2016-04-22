@@ -9,7 +9,10 @@ PredictionModel <- function(phrase) {
   library(tm)
   
   # load the model
-  load("pridictionModel.rda")
+  
+  if(!exists("ngram.bi")) {
+    load("pridictionModel.rda")
+  }
   
   if(phrase == '') return("Caution: Please enter a phrase")
   

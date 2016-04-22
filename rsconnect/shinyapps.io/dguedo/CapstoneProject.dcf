@@ -1,8 +1,8 @@
 name: CapstoneProject
 account: dguedo
 server: shinyapps.io
-bundleId: 427137
+bundleId: 428863
 url: https://dguedo.shinyapps.io/CapstoneProject/
-when: 1461207111.3802
+when: 1461293615.74495
 asMultiple: FALSE
 asStatic: FALSE
